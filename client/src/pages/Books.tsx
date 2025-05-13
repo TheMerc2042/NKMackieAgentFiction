@@ -13,23 +13,25 @@ const Books = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <p className="case-number text-sm mb-2">CASE FILES</p>
-            <h1 className="font-montserrat text-3xl md:text-4xl font-bold text-navy mb-4">Empire Crime Investigations</h1>
+            <h1 className="font-montserrat text-3xl md:text-4xl font-bold text-navy mb-4">The Empire Crime Investigations</h1>
             <p className="text-gray-600 max-w-2xl mx-auto">Follow investigator Rachel Chen as she navigates the criminal underworld of New York City, solving cases that others have abandoned.</p>
           </div>
           
           <div className="flex flex-col items-center mb-16">
             <div className="bg-white rounded-xl shadow-card overflow-hidden max-w-4xl w-full fade-in">
               <div 
-                className="h-48 md:h-64 bg-cover bg-center" 
-                style={{ backgroundImage: `url(${BOOK_BACKGROUNDS[0]})` }}
-              ></div>
+                className="h-48 md:h-64 bg-cover bg-center relative" 
+                style={{ backgroundImage: `url('https://images.unsplash.com/photo-1563459802257-2a97df940f11?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500')` }}
+              >
+                <div className="absolute inset-0 bg-navy/40"></div>
+              </div>
               
-              <div className="p-8 flex flex-col md:flex-row gap-8">
+              <div className="p-8 flex flex-col md:flex-row gap-12">
                 <div className="md:w-1/3 flex justify-center">
                   <BookCover />
                 </div>
                 
-                <div className="md:w-2/3">
+                <div className="md:w-2/3 md:pl-4">
                   <h2 className="font-montserrat text-2xl font-bold text-navy mb-2">DISMISSED</h2>
                   <p className="text-gray-500 mb-4">Book 1 • Release Date: June 30, 2023</p>
                   

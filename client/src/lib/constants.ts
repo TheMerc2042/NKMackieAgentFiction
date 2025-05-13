@@ -38,8 +38,9 @@ export const CORPORATE_MYSTERY_BACKGROUNDS = [
 ];
 
 export const BOOK_BACKGROUNDS = [
-  'https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500',
-  'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500'
+  'https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500',
+  'https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500',
+  'https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500'
 ];
 
 export const CONTACT_BACKGROUNDS = [
