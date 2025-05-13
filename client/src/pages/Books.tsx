@@ -21,9 +21,9 @@ const Books = () => {
             <div className="bg-white rounded-xl shadow-card overflow-hidden max-w-4xl w-full fade-in">
               <div 
                 className="h-48 md:h-64 bg-cover bg-center relative" 
-                style={{ backgroundImage: `url('https://images.unsplash.com/photo-1585155967849-91c736589c84?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500')` }}
+                style={{ backgroundImage: `url('https://images.unsplash.com/photo-1496588152823-86ff7695e68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500')` }}
               >
-                <div className="absolute inset-0 bg-navy/60"></div>
+                <div className="absolute inset-0 bg-navy/40"></div>
               </div>
               
               <div className="p-8 flex flex-col md:flex-row gap-12">
