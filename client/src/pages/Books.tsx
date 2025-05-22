@@ -21,9 +21,14 @@ const Books = () => {
             <div className="bg-white rounded-xl shadow-card overflow-hidden max-w-4xl w-full fade-in">
               <div 
                 className="h-48 md:h-64 bg-cover bg-center relative" 
-                style={{ backgroundImage: `url('https://images.unsplash.com/photo-1496588152823-86ff7695e68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500')` }}
+                style={{ backgroundImage: `url('https://images.unsplash.com/photo-1518235506717-e1ed3306a89b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500')` }}
               >
-                <div className="absolute inset-0 bg-navy/40"></div>
+                <div className="absolute inset-0 bg-black/70"></div>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <h2 className="text-white text-3xl md:text-4xl font-montserrat font-bold text-center drop-shadow-lg">
+                    The Empire Crime Investigations
+                  </h2>
+                </div>
               </div>
               
               <div className="p-8 flex flex-col md:flex-row gap-12">

@@ -24,17 +24,11 @@ const About = () => {
           </div>
           
           <div className="lg:w-3/5 fade-in">
-            <p className="mb-6">N.K. Mackie served as an FBI agent for over twenty years, specializing in complex criminal investigations. During her career, she worked on numerous high-profile cases involving organized crime, financial fraud, and cold case homicides.</p>
+            <p className="mb-6">N.K. Mackie is a former federal agent and seasoned financial crimes investigator, whose career took her deep into the world of fraud, corruption, and white-collar criminal networks. With a bachelor's degree, a master's, and a law degree, she brings a sharp legal mind and a deep understanding of the justice system to every page she writes.</p>
             
-            <p className="mb-6">After retiring from the Bureau, she decided to channel her knowledge of investigative procedures, criminal psychology, and the justice system into writing fiction that captures the authentic challenges faced by law enforcement professionals.</p>
+            <p className="mb-6">Her debut novel, Dismissed, launches the Empire Crime Investigations series, where Mackie weaves gripping stories inspired by her time in the field. Drawing from real-world experience, she offers readers an insider's view of criminal investigations—highlighting not only the intricacies of law enforcement work but also the emotional and psychological weight that comes with it.</p>
             
-            <p className="mb-6">Her debut novel, <em>Dismissed</em>, marks the beginning of the Empire Crime Investigations series, drawing heavily from her experiences in the field while crafting compelling narratives that both entertain and illuminate the realities of criminal investigation.</p>
-            
-            <p className="mb-6">When not writing, she consults on security matters and speaks at law enforcement conferences across the country. She lives with her family in the Northeast.</p>
-            
-            <div className="inline-block border-l-4 border-teal pl-4 italic">
-              "I write the kinds of stories that reflect the true complexities of investigative work—the procedures, the politics, and the perseverance required to find justice."
-            </div>
+            <p className="mb-6">A proud New England native, she credits her parents for instilling in her the belief that anything is possible with hard work and a little luck.</p>
           </div>
         </div>
       </div>
