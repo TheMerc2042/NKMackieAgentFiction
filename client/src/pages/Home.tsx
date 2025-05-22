@@ -19,18 +19,22 @@ const Home = () => {
           className="absolute inset-0"
         ></div>
         
+        {/* Tagline in top right corner */}
+        <div className="absolute top-4 right-4 z-30 bg-white p-3 rounded-md shadow-lg max-w-xs">
+          <p className="text-black text-xs font-montserrat">
+            From federal agent to novelist, N.K. Mackie brings authentic crime investigation expertise to page-turning fiction.
+          </p>
+        </div>
+        
         <div className="container mx-auto px-6 relative z-20 h-full flex flex-col justify-center">
           <div className="max-w-2xl fade-in">
-            <p className="case-number text-sm md:text-base mb-4">FILE: ECI-2306-DISMISSED</p>
+            <p className="case-number text-sm md:text-base mb-4 text-white">FILE: ECI-2306-DISMISSED</p>
             <h1 className="font-montserrat text-white text-4xl md:text-6xl font-bold leading-tight mb-4">
               Justice is bought and sold in the shadows. He's bringing it into the light.
             </h1>
-            <p className="text-gray-200 text-lg md:text-xl mb-8">
-              From federal agent to novelist, N.K. Mackie brings authentic crime investigation expertise to page-turning fiction.
-            </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/books">
-                <Button className="bg-teal hover:bg-teal-light text-navy font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center w-full sm:w-auto">
+                <Button className="bg-red-600 hover:bg-red-700 text-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center w-full sm:w-auto">
                   Discover the Book
                 </Button>
               </Link>
