@@ -23,10 +23,10 @@ const Home = () => {
           <div className="max-w-2xl fade-in">
             <p className="case-number text-sm md:text-base mb-4">FILE: ECI-2306-DISMISSED</p>
             <h1 className="font-montserrat text-white text-4xl md:text-6xl font-bold leading-tight mb-4">
-              Truth is stranger than fiction
+              Justice is bought and sold in the shadows. He's bringing it into the light.
             </h1>
             <p className="text-gray-200 text-lg md:text-xl mb-8">
-              From FBI agent to novelist, N.K. Mackie brings authentic crime investigation expertise to page-turning fiction.
+              From federal agent to novelist, N.K. Mackie brings authentic crime investigation expertise to page-turning fiction.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/books">
