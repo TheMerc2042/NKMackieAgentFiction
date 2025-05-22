@@ -15,7 +15,7 @@ const Home = () => {
       <div className="relative h-[80vh] bg-navy-light overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-navy/90 to-navy-light/60 z-10"></div>
         <div
-          style={{ backgroundImage: `url(${CORPORATE_MYSTERY_BACKGROUNDS[0]})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
           className="absolute inset-0"
         ></div>
         
