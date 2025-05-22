@@ -19,12 +19,11 @@ const Contact = () => {
         
         <div className="flex flex-col lg:flex-row gap-12 max-w-5xl mx-auto">
           <div className="lg:w-1/2 fade-in">
-            <div className="h-64 bg-cover bg-center rounded-xl overflow-hidden shadow-lg" 
-                 style={{ backgroundImage: `url(${CONTACT_BACKGROUNDS[0]})` }}>
-              <div className="h-full w-full bg-navy/40 p-8 flex items-end">
+            <div className="h-64 bg-gray-100 rounded-xl overflow-hidden shadow-lg">
+              <div className="h-full w-full p-8 flex items-end">
                 <div>
-                  <h3 className="font-montserrat text-xl font-bold text-white mb-2">Business Inquiries</h3>
-                  <div className="space-y-1 text-white/90">
+                  <h3 className="font-montserrat text-xl font-bold text-black mb-2">Business Inquiries</h3>
+                  <div className="space-y-1 text-black">
                     <p>Literary Agent: Maxwell Literary Agency</p>
                     <p>Speaking Engagements: contact@nkmackie.com</p>
                     <p>Media Requests: press@nkmackie.com</p>
@@ -59,14 +58,7 @@ const Contact = () => {
               <div>
                 <h3 className="font-montserrat text-xl font-bold text-navy mb-3">Upcoming Events</h3>
                 <div className="space-y-4">
-                  {UPCOMING_EVENTS.map((event) => (
-                    <div key={event.id} className="border-l-4 border-teal pl-4">
-                      <p className="font-montserrat font-medium">{event.title}</p>
-                      <p className="text-gray-600">
-                        {formatDate(new Date(event.date))} • {event.location}
-                      </p>
-                    </div>
-                  ))}
+                  <p className="text-gray-600">Check back soon for upcoming events and speaking engagements.</p>
                 </div>
               </div>
             </div>

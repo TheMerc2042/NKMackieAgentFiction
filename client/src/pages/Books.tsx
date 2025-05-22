@@ -21,7 +21,7 @@ const Books = () => {
             <div className="bg-white rounded-xl shadow-card overflow-hidden max-w-4xl w-full fade-in">
               <div 
                 className="h-48 md:h-64 bg-cover bg-center relative" 
-                style={{ backgroundImage: `url('https://images.unsplash.com/photo-1518235506717-e1ed3306a89b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500')` }}
+                style={{ backgroundImage: `url('https://images.unsplash.com/photo-1514565131-fce0801e5785?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=500')` }}
               >
                 <div className="absolute inset-0 bg-black/70"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -78,23 +78,7 @@ const Books = () => {
             </div>
           </div>
           
-          <div className="text-center">
-            <h3 className="font-montserrat text-xl font-medium text-navy mb-4">Coming Soon in the Series</h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="bg-white rounded-lg shadow-card p-6 border-l-4 border-gray-300">
-                <h4 className="font-montserrat text-lg font-bold mb-2">Book 2: Unredacted</h4>
-                <p className="text-gray-600 mb-2">Expected: Winter 2023</p>
-                <p>Rachel Chen uncovers a decades-old cold case with connections to current string of murders in Manhattan.</p>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-card p-6 border-l-4 border-gray-300">
-                <h4 className="font-montserrat text-lg font-bold mb-2">Book 3: Undisclosed</h4>
-                <p className="text-gray-600 mb-2">Expected: Summer 2024</p>
-                <p>A high-profile kidnapping leads Rachel to a criminal network operating within the highest levels of city government.</p>
-              </div>
-            </div>
-          </div>
+
         </div>
       </section>
       
