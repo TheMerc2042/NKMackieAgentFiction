@@ -40,8 +40,7 @@ const Home = () => {
               </Link>
               <Button 
                 onClick={() => document.getElementById('newsletter')?.scrollIntoView({ behavior: 'smooth' })}
-                variant="outline"
-                className="bg-transparent hover:bg-white/10 text-white border-2 border-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center w-full sm:w-auto"
+                className="bg-white hover:bg-gray-100 text-red-600 border-2 border-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center w-full sm:w-auto"
               >
                 Join Newsletter
               </Button>
