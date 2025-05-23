@@ -38,7 +38,7 @@ const Navbar = () => {
       )}>
         <div className="container mx-auto flex justify-between items-center">
           <Link href="/" className="font-montserrat font-bold text-xl tracking-wide">
-            <span className="text-teal">N.K.</span> MACKIE
+            <span className="text-red-600">N.K.</span> MACKIE
           </Link>
           <div className="flex space-x-8">
             {navLinks.map((link) => (
@@ -61,7 +61,7 @@ const Navbar = () => {
       <nav className="bg-navy text-white py-4 px-6 md:hidden sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center">
           <Link href="/" className="font-montserrat font-bold text-xl tracking-wide">
-            <span className="text-teal">N.K.</span> MACKIE
+            <span className="text-red-600">N.K.</span> MACKIE
           </Link>
           <button 
             onClick={() => setIsMobileMenuOpen(true)}
