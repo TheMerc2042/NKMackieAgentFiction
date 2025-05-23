@@ -17,7 +17,7 @@ const About = () => {
                 alt="N.K. Mackie Author Photo" 
                 className="rounded-lg shadow-xl max-w-xs mx-auto"
               />
-              <div className="absolute -bottom-4 -right-4 bg-teal text-navy py-1 px-4 font-courier text-sm">
+              <div className="absolute -bottom-4 -right-4 bg-teal text-white py-1 px-4 font-courier text-sm">
                 CREDENTIALS VERIFIED
               </div>
             </div>

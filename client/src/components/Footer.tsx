@@ -19,7 +19,7 @@ const Footer = ({ onAdminAccess }: FooterProps) => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-8 md:mb-0">
             <Link href="/" className="font-montserrat font-bold text-xl tracking-wide">
-              <span className="text-teal">N.K.</span> MACKIE
+              <span className="text-red-600">N.K.</span> MACKIE
             </Link>
             <p className="text-white/70 mt-2">© {new Date().getFullYear()} All Rights Reserved</p>
           </div>
