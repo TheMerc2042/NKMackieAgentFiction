@@ -20,8 +20,8 @@ const Home = () => {
         ></div>
         
         {/* Tagline in top right corner */}
-        <div className="absolute top-4 right-4 z-30 bg-white p-3 rounded-md shadow-lg max-w-xs">
-          <p className="text-black text-xs font-montserrat">
+        <div className="absolute top-4 right-4 z-30 border-2 border-white p-3 rounded-md max-w-xs">
+          <p className="text-white text-xs font-montserrat">
             From federal agent to novelist, N.K. Mackie brings authentic crime investigation expertise to page-turning fiction.
           </p>
         </div>
@@ -91,16 +91,16 @@ const Home = () => {
       </section>
 
       {/* Newsletter Section */}
-      <section id="newsletter" className="py-16 md:py-20 bg-navy">
+      <section id="newsletter" className="py-16 md:py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <p className="case-number text-sm mb-2">CONFIDENTIAL BRIEFING</p>
-            <h2 className="font-montserrat text-3xl md:text-4xl font-bold text-white mb-4">Join the Investigation</h2>
-            <p className="text-gray-300 mb-8">Subscribe to N.K. Mackie's newsletter for exclusive content, behind-the-scenes insights, and advance notice of new releases.</p>
+            <p className="text-red-600 text-sm mb-2 font-courier">CONFIDENTIAL BRIEFING</p>
+            <h2 className="font-montserrat text-3xl md:text-4xl font-bold text-red-600 mb-4">Join the Investigation</h2>
+            <p className="text-red-700 mb-8">Subscribe to N.K. Mackie's newsletter for exclusive content, behind-the-scenes insights, and advance notice of new releases.</p>
             
             <NewsletterForm />
             
-            <p className="text-gray-400 text-sm mt-4">Your information will never be shared. You can unsubscribe at any time.</p>
+            <p className="text-red-500 text-sm mt-4">Your information will never be shared. You can unsubscribe at any time.</p>
           </div>
         </div>
       </section>
