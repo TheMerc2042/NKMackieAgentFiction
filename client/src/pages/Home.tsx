@@ -20,8 +20,8 @@ const Home = () => {
         ></div>
         
         {/* Tagline in top right corner */}
-        <div className="absolute top-4 right-4 z-30 border-2 border-white p-3 rounded-md max-w-xs">
-          <p className="text-white text-xs font-montserrat">
+        <div className="absolute top-4 right-4 z-30 border-2 border-white p-5 rounded-md max-w-md">
+          <p className="text-white text-sm font-montserrat">
             From federal agent to novelist, N.K. Mackie brings authentic crime investigation expertise to page-turning fiction.
           </p>
         </div>
