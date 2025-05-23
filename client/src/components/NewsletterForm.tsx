@@ -62,7 +62,7 @@ const NewsletterForm = () => {
                 <FormControl>
                   <Input
                     placeholder="Your email address"
-                    className="bg-white/10 border border-white/30 text-white placeholder:text-white/50 px-4 py-3 h-12 rounded-md focus:outline-none focus:ring-2 focus:ring-teal"
+                    className="bg-white border border-red-300 text-red-600 placeholder:text-red-400 px-4 py-3 h-12 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                     {...field}
                   />
                 </FormControl>
@@ -72,7 +72,7 @@ const NewsletterForm = () => {
           />
           <Button 
             type="submit" 
-            className="bg-teal hover:bg-teal-light text-navy font-montserrat font-bold py-3 px-6 h-12 rounded-md transition duration-300"
+            className="bg-white hover:bg-gray-100 text-red-600 font-montserrat font-bold py-3 px-6 h-12 rounded-md transition duration-300"
             disabled={subscribeNewsletter.isPending}
           >
             {subscribeNewsletter.isPending ? "Subscribing..." : "Subscribe"}
