@@ -7,6 +7,7 @@ import Contact from "@/pages/Contact";
 import Admin from "@/pages/Admin";
 import Privacy from "@/pages/Privacy";
 import Terms from "@/pages/Terms";
+import Cookies from "@/pages/Cookies";
 import NotFound from "@/pages/not-found";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/admin" component={Admin} />
         <Route path="/privacy" component={Privacy} />
         <Route path="/terms" component={Terms} />
+        <Route path="/cookies" component={Cookies} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
