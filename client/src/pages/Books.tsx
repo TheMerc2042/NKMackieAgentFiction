@@ -3,6 +3,7 @@ import { BOOK_BACKGROUNDS, AMAZON_BOOK_LINK } from "@/lib/constants";
 import BookCover from "@/components/BookCover";
 import { BookPreviewModal } from "@/components/BookPreviewModal";
 import { Button } from "@/components/ui/button";
+import PublisherLogo from "@assets/image_1749165475370.png";
 
 const Books = () => {
   const [isPreviewOpen, setIsPreviewOpen] = useState(false);
@@ -78,6 +79,27 @@ const Books = () => {
             </div>
           </div>
           
+          {/* Publisher Section */}
+          <div className="text-center">
+            <div className="bg-white rounded-xl shadow-card overflow-hidden max-w-2xl mx-auto fade-in p-8">
+              <h3 className="font-montserrat text-2xl font-bold text-navy mb-6">Published by</h3>
+              <div className="flex flex-col items-center gap-4">
+                <img 
+                  src={PublisherLogo} 
+                  alt="Severn River Books Logo" 
+                  className="max-w-xs w-full h-auto"
+                />
+                <a 
+                  href="https://severnriverbooks.com/collections/n-k-mackie" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center justify-center bg-red-600 hover:bg-red-700 text-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300"
+                >
+                  Click Here for the Publisher's Website
+                </a>
+              </div>
+            </div>
+          </div>
 
         </div>
       </section>
