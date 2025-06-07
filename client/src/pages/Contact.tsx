@@ -15,17 +15,17 @@ const Contact = () => {
         <div className="max-w-3xl mx-auto">
           <div className="fade-in">
             <div className="h-64 bg-gray-100 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-full w-full p-8 flex items-end">
-                <div>
-                  <h3 className="font-montserrat text-xl font-bold text-black mb-2">Contact Me for Business Inquiries, Speaking Engagements and Media Requests</h3>
-                  <div className="space-y-1 text-black">
+              <div className="h-full w-full p-8 flex items-center justify-center">
+                <div className="text-center">
+                  <h3 className="font-montserrat text-xl font-bold text-black mb-4">Contact Me for Business Inquiries, Speaking Engagements and Media Requests</h3>
+                  <div className="text-black">
                     <p>nkmackiebooks@outlook.com</p>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div className="mt-12 space-y-6 px-4">
+            <div className="mt-12 space-y-6 px-4 text-center">
               <div>
                 <h3 className="font-montserrat text-xl font-bold text-navy mb-3">Connect</h3>
                 <div className="flex gap-4 justify-center">
