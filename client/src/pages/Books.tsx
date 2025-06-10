@@ -39,7 +39,7 @@ const Books = () => {
                 
                 <div className="md:w-2/3 md:pl-4">
                   <h2 className="font-montserrat text-2xl font-bold text-navy mb-2">DISMISSED</h2>
-                  <p className="text-gray-500 mb-4">Book 1 • Release Date: June 30, 2023</p>
+                  <p className="text-gray-500 mb-4">Book 1 • Release Date: June 17, 2025</p>
                   
                   <div className="mb-6">
                     <p className="mb-4">Peter Drake—better known as "The Old Man"—thought he was done chasing shadows. After decades of leading some of the FBI's most intricate operations, he's traded his badge for beach walks and sunsets at his Florida condo.</p>
