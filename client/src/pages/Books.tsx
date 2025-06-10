@@ -42,9 +42,15 @@ const Books = () => {
                   <p className="text-gray-500 mb-4">Book 1 • Release Date: June 30, 2023</p>
                   
                   <div className="mb-6">
-                    <p className="mb-4">When a prominent judge's daughter goes missing, former FBI agent Rachel Chen is hired to find her. What begins as a routine missing persons case quickly spirals into something far more sinister as Rachel discovers a pattern of dismissed cases connected to the city's most powerful figures.</p>
+                    <p className="mb-4">Peter Drake—better known as "The Old Man"—thought he was done chasing shadows. After decades of leading some of the FBI's most intricate operations, he's traded his badge for beach walks and sunsets at his Florida condo.</p>
                     
-                    <p>As Rachel digs deeper, she realizes the dismissed evidence points to a conspiracy that threatens not only her investigation but her life. With time running out, she must navigate a treacherous landscape of corruption, betrayal, and murder to uncover the truth.</p>
+                    <p className="mb-4">But retirement doesn't last long for men like him.</p>
+                    
+                    <p className="mb-4">When a cryptic three-line note lands on a Justice Department desk in Washington, it sets off alarm bells at the highest levels of government. A federal judge in Manhattan is thought to be systematically dismissing organized crime cases, her gavel seemingly for sale to the highest bidder.</p>
+                    
+                    <p className="mb-4">Reluctantly stepping back into the game, The Old Man assembles the Mustang Task Force—an elite team of agents and analysts with the goal of dismantling the conspiracy fully. As surveillance units deploy across New York and hushed conversations are captured, the investigation reveals connections to a powerful criminal enterprise that no one anticipated.</p>
+                    
+                    <p>Between offshore banking, valuable artwork, and decades-old secrets, The Old Man must determine if justice itself has been compromised—or if he's chasing shadows cast by someone else.</p>
                   </div>
                   
                   <div className="flex flex-wrap gap-4 mb-6">
