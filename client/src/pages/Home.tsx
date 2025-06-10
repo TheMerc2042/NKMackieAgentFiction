@@ -81,15 +81,7 @@ const Home = () => {
               </h3>
               <div className="mb-6 space-y-4">
                 <p>
-                  When former FBI investigator Rachel Chen takes on what seems
-                  like a routine missing persons case, she uncovers a web of
-                  corruption that reaches the highest levels of New York City's
-                  elite.
-                </p>
-                <p>
-                  With a trail of dismissed evidence and overlooked witnesses,
-                  she'll need all her training—and a few burned bridges—to find
-                  the truth before another victim disappears.
+                  Peter Drake—"The Old Man"—thought he left the shadows behind. But when whispers of a corrupt Manhattan judge reach D.C., he's called back into the game. With the Mustang Task Force at his side, The Old Man hunts a criminal conspiracy stretching from courtrooms to offshore banks. Is justice being sold—or is someone setting the stage for something bigger?
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
