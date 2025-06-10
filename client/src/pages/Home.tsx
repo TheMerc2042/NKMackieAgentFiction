@@ -81,7 +81,7 @@ const Home = () => {
               </h3>
               <div className="mb-6 space-y-4">
                 <p>
-                  Peter Drake—"The Old Man"—thought he left the shadows behind. But when whispers of a corrupt Manhattan judge reach D.C., he's called back into the game. With the Mustang Task Force at his side, The Old Man hunts a criminal conspiracy stretching from courtrooms to offshore banks. Is justice being sold—or is someone setting the stage for something bigger?
+                  Peter Drake—"The Old Man"—thought he left the shadows behind when he retired from the FBI. But when whispers of a corrupt federal judge in Manhattan reach D.C., he's called back into the game.  Between offshore banking, valuable artwork, and decades-old secrets, The Old Man and his Mustang Task Force must determine if justice itself has been compromised.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
