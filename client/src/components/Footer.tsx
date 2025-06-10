@@ -38,7 +38,7 @@ const Footer = ({ onAdminAccess }: FooterProps) => {
         </div>
         
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/50 text-sm">
-          <p>N.K. Mackie is a former FBI agent and author of crime fiction. All case details in her books are fictionalized.</p>
+          <p>N.K. Mackie is a former federal agent and crime fiction author. All case details in her books are fictionalized.</p>
           <p className="mt-2" onClick={handleAdminClick}>
             Website designed and developed by Creative Agency.
           </p>
