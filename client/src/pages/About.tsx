@@ -24,7 +24,7 @@ const About = () => {
           </div>
           
           <div className="lg:w-3/5 fade-in">
-            <p className="mb-6">N.K. Mackie is a former federal agent and seasoned financial crimes investigator, whose career took her deep into the world of fraud, corruption, and white-collar criminal networks. With a bachelor's degree, a master's, and a law degree, she brings a sharp legal mind and a deep understanding of the justice system to every page she writes.</p>
+            <p className="mb-6">N.K. Mackie is a former federal agent and seasoned financial crimes investigator. She brings a sharp legal mind and a deep understanding of the justice system to every page she writes.</p>
             
             <p className="mb-6">Her debut novel, Dismissed, launches the Empire Crime Investigations series, where Mackie weaves gripping stories inspired by her time in the field. Drawing from real-world experience, she offers readers an insider's view of criminal investigations—highlighting not only the intricacies of law enforcement work but also the emotional and psychological weight that comes with it.</p>
             
