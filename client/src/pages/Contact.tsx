@@ -7,9 +7,6 @@ const Contact = () => {
         <div className="text-center mb-16">
           <p className="case-number text-sm mb-2">SECURE COMMUNICATION</p>
           <h1 className="font-montserrat text-3xl md:text-4xl font-bold text-navy mb-4">Contact</h1>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Have questions about upcoming books, speaking engagements, or media inquiries? Get in touch.
-          </p>
         </div>
         
         <div className="max-w-3xl mx-auto">
@@ -17,10 +14,7 @@ const Contact = () => {
             <div className="h-64 bg-gray-100 rounded-xl overflow-hidden shadow-lg">
               <div className="h-full w-full p-8 flex items-center justify-center">
                 <div className="text-center">
-                  <h3 className="font-montserrat text-xl font-bold text-black mb-4">Contact Me for Business Inquiries, Speaking Engagements and Media Requests</h3>
-                  <div className="text-black">
-                    <p>nkmackiebooks@outlook.com</p>
-                  </div>
+                  <h3 className="font-montserrat text-xl font-bold text-black mb-4">References/contact for author N.K. Mackie are at email: nkmackie@outlook.com</h3>
                 </div>
               </div>
             </div>
