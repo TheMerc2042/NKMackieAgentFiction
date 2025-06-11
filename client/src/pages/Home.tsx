@@ -92,7 +92,7 @@ const Home = () => {
                   className="inline-flex items-center justify-center bg-navy hover:bg-navy-light text-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center w-full sm:w-auto"
                 >
                   <img 
-                    src="@assets/image_1749683631433.png" 
+                    src="@assets/amazon_button_1749683883426.png" 
                     alt="Amazon logo" 
                     className="w-5 h-5 mr-2 filter invert"
                   />
