@@ -1,4 +1,4 @@
-import { Facebook, BookOpen } from "lucide-react";
+import { BookOpen } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -23,10 +23,6 @@ const Contact = () => {
               <div>
                 <h3 className="font-montserrat text-xl font-bold text-navy mb-3">Connect</h3>
                 <div className="flex gap-4 justify-center">
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
-                     className="bg-navy hover:bg-navy-light text-white h-12 w-12 rounded-full flex items-center justify-center transition duration-300">
-                    <Facebook className="h-5 w-5" />
-                  </a>
                   <a href="https://www.goodreads.com/author/show/55699276.N_K_Mackie" target="_blank" rel="noopener noreferrer"
                      className="bg-navy hover:bg-navy-light text-white h-12 w-12 rounded-full flex items-center justify-center transition duration-300">
                     <BookOpen className="h-5 w-5" />
