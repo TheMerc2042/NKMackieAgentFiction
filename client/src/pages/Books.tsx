@@ -1,12 +1,8 @@
-import { useState } from "react";
 import { BOOK_BACKGROUNDS, AMAZON_BOOK_LINK } from "@/lib/constants";
 import BookCover from "@/components/BookCover";
-import { BookPreviewModal } from "@/components/BookPreviewModal";
-import { Button } from "@/components/ui/button";
 import PublisherLogo from "@assets/image_1749165475370.png";
 
 const Books = () => {
-  const [isPreviewOpen, setIsPreviewOpen] = useState(false);
 
   return (
     <>
@@ -72,13 +68,6 @@ const Books = () => {
                       </svg>
                       Pre-order Now
                     </a>
-                    <Button
-                      onClick={() => setIsPreviewOpen(true)}
-                      variant="outline"
-                      className="bg-transparent hover:bg-navy/5 text-navy border-2 border-navy font-montserrat font-bold py-3 px-8 rounded-md transition duration-300"
-                    >
-                      Read Preview
-                    </Button>
                   </div>
                 </div>
               </div>
@@ -109,11 +98,6 @@ const Books = () => {
 
         </div>
       </section>
-      
-      <BookPreviewModal
-        isOpen={isPreviewOpen}
-        onClose={() => setIsPreviewOpen(false)}
-      />
     </>
   );
 };
