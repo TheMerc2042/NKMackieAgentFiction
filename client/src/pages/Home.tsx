@@ -89,7 +89,7 @@ const Home = () => {
                   href={AMAZON_BOOK_LINK}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center bg-navy hover:bg-navy-light text-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center"
+                  className="inline-flex items-center justify-center bg-navy hover:bg-navy-light text-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center w-full sm:w-auto"
                 >
                   <svg
                     className="w-5 h-5 mr-2"
