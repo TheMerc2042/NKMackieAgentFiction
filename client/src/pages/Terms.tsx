@@ -1,3 +1,5 @@
+import { Link } from "wouter";
+
 const Terms = () => {
   return (
     <section className="py-16 md:py-24 bg-white text-gray-800">
@@ -62,9 +64,9 @@ const Terms = () => {
             If you have questions about these terms, please contact us at:
           </p>
           <p className="text-center">
-            <a href="/contact" className="text-red-600 hover:text-red-700 font-bold">
+            <Link href="/contact" className="text-red-600 hover:text-red-700 font-bold">
               🌐 nkmackie.com/contact
-            </a>
+            </Link>
           </p>
         </div>
       </div>
