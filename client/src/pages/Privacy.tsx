@@ -1,3 +1,5 @@
+import { Link } from "wouter";
+
 const Privacy = () => {
   return (
     <section className="py-16 md:py-24 bg-white text-gray-800">
@@ -71,9 +73,9 @@ const Privacy = () => {
             If you have any questions about this Privacy Policy, please contact us using our contact form:
           </p>
           <p className="text-center">
-            <a href="/contact" className="text-red-600 hover:text-red-700 font-bold">
+            <Link href="/contact" className="text-red-600 hover:text-red-700 font-bold">
               🌐 nkmackie.com/contact
-            </a>
+            </Link>
           </p>
         </div>
       </div>
