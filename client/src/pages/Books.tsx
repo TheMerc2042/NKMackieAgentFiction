@@ -11,7 +11,6 @@ const Books = () => {
           <div className="text-center mb-16">
             <p className="case-number text-sm mb-2">CASE FILES</p>
             <h1 className="font-montserrat text-3xl md:text-4xl font-bold text-navy mb-4">The Empire Crime Investigations</h1>
-            <p className="text-gray-600 max-w-2xl mx-auto">Follow investigator Rachel Chen as she navigates the criminal underworld of New York City, solving cases that others have abandoned.</p>
           </div>
           
           <div className="flex flex-col items-center mb-16">
