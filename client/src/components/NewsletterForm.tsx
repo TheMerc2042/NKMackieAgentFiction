@@ -37,10 +37,10 @@ const NewsletterForm = () => {
   };
 
   return (
-    <Card className="p-6 bg-gradient-to-r from-navy-900 to-navy-800 text-white shadow-lg">
+    <Card className="p-6 bg-white shadow-lg">
       <div className="text-center mb-6">
-        <h2 className="text-2xl font-bold mb-2 font-montserrat text-white">Join the Newsletter</h2>
-        <p className="text-gray-200">Subscribe to get our latest content by email.</p>
+        <h2 className="text-2xl font-bold mb-2 font-montserrat text-gray-700">Join the Newsletter</h2>
+        <p className="text-gray-600">Subscribe to get our latest content by email.</p>
       </div>
       
       <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
@@ -62,7 +62,7 @@ const NewsletterForm = () => {
         </Button>
       </form>
       
-      <p className="text-xs text-gray-300 text-center mt-4">
+      <p className="text-xs text-gray-600 text-center mt-4">
         We won't send you spam. Unsubscribe at any time.
       </p>
     </Card>
