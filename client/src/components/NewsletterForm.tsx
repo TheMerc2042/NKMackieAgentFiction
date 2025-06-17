@@ -1,93 +1,93 @@
-import { useState } from "react";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useMutation } from "@tanstack/react-query";
-import { apiRequest } from "@/lib/queryClient";
-import { Form, FormControl, FormField, FormItem, FormMessage } from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { useToast } from "@/hooks/use-toast";
-import { SuccessModal } from "@/components/SuccessModal";
+import { useEffect } from "react";
 
-const subscribeSchema = z.object({
-  email: z.string().email("Please enter a valid email address"),
-});
+/*
+  We drop Kit’s full HTML into the page with dangerouslySetInnerHTML.
+  ✔  keeps all Kit styling & behaviour
+  ✔  no JSX parsing errors
+*/
+const EMBED_HTML = `
+<form action="https://app.kit.com/forms/8193195/subscriptions"
+      class="seva-form formkit-form"
+      method="post"
+      data-sv-form="8193195"
+      data-uid="77d6ece41e"
+      data-format="inline"
+      data-version="5"
+      style="background-color:#f9fafb;border-radius:4px;">
 
-type SubscribeFormValues = z.infer<typeof subscribeSchema>;
+  <div class="formkit-background" style="opacity:0.2;"></div>
+
+  <div data-style="minimal">
+
+    <div class="formkit-header" data-element="header"
+         style="color:#4d4d4d;font-size:27px;font-weight:700;">
+      <h2>Join the Newsletter</h2>
+    </div>
+
+    <div class="formkit-subheader" data-element="subheader"
+         style="color:#686868;font-size:18px;">
+      Subscribe to get our latest content by email.
+    </div>
+
+    <ul class="formkit-alert formkit-alert-error"
+        data-element="errors" data-group="alert"></ul>
+
+    <div data-element="fields" data-stacked="false"
+         class="seva-fields formkit-fields">
+
+      <div class="formkit-field">
+        <input class="formkit-input"
+               name="email_address"
+               aria-label="Email Address"
+               placeholder="Email Address"
+               required
+               type="email"
+               style="color:#000;border-color:#e3e3e3;border-radius:4px;font-weight:400;">
+      </div>
+
+      <button data-element="submit"
+              class="formkit-submit"
+              style="color:#fff;background-color:#1677be;border-radius:4px;font-weight:400;">
+        <div class="formkit-spinner"><div></div><div></div><div></div></div>
+        <span>Subscribe</span>
+      </button>
+
+    </div>
+
+    <div class="formkit-guarantee" data-element="guarantee"
+         style="color:#4d4d4d;font-size:13px;font-weight:400;">
+      We won't send you spam. Unsubscribe at any time.
+    </div>
+
+    <div class="formkit-powered-by-convertkit-container">
+      <a href="https://kit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"
+         data-element="powered-by"
+         class="formkit-powered-by-convertkit"
+         data-variant="dark"
+         target="_blank"
+         rel="nofollow">
+        Built with Kit
+      </a>
+    </div>
+
+  </div>
+</form>
+`;
 
 const NewsletterForm = () => {
-  const { toast } = useToast();
-  const [isSuccessModalOpen, setIsSuccessModalOpen] = useState(false);
-  
-  const form = useForm<SubscribeFormValues>({
-    resolver: zodResolver(subscribeSchema),
-    defaultValues: {
-      email: "",
-    },
-  });
-  
-  const subscribeNewsletter = useMutation({
-    mutationFn: (data: SubscribeFormValues) => 
-      apiRequest("POST", "/api/newsletter/subscribe", data),
-    onSuccess: () => {
-      form.reset();
-      setIsSuccessModalOpen(true);
-    },
-    onError: (error) => {
-      toast({
-        title: "Error",
-        description: error.message || "Failed to subscribe. Please try again.",
-        variant: "destructive",
-      });
-    },
-  });
-  
-  const onSubmit = (data: SubscribeFormValues) => {
-    subscribeNewsletter.mutate(data);
-  };
-  
-  return (
-    <>
-      <Form {...form}>
-        <form 
-          onSubmit={form.handleSubmit(onSubmit)} 
-          className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto"
-        >
-          <FormField
-            control={form.control}
-            name="email"
-            render={({ field }) => (
-              <FormItem className="flex-grow">
-                <FormControl>
-                  <Input
-                    placeholder="Your email address"
-                    className="bg-white border border-black text-black placeholder:text-gray-500 px-4 py-3 h-12 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
-                    {...field}
-                  />
-                </FormControl>
-                <FormMessage className="text-red-300" />
-              </FormItem>
-            )}
-          />
-          <Button 
-            type="submit" 
-            className="bg-black hover:bg-gray-800 text-white font-montserrat font-bold py-3 px-6 h-12 rounded-md transition duration-300"
-            disabled={subscribeNewsletter.isPending}
-          >
-            {subscribeNewsletter.isPending ? "Subscribing..." : "Subscribe"}
-          </Button>
-        </form>
-      </Form>
-      
-      <SuccessModal
-        isOpen={isSuccessModalOpen}
-        onClose={() => setIsSuccessModalOpen(false)}
-        title="Thank You!"
-        description="You've successfully joined N.K. Mackie's newsletter. Watch your inbox for exclusive content, behind-the-scenes insights, and special announcements about upcoming releases."
-      />
-    </>
-  );
+  /* make sure the loader script is in the page */
+  useEffect(() => {
+    if (!document.getElementById("ck-script")) {
+      const s = document.createElement("script");
+      s.src = "https://f.convertkit.com/ckjs/ck.5.js";
+      s.async = true;
+      s.id = "ck-script";
+      document.body.appendChild(s);
+    }
+  }, []);
+
+  /* render Kit’s HTML verbatim */
+  return <div dangerouslySetInnerHTML={{ __html: EMBED_HTML }} />;
 };
 
 export default NewsletterForm;

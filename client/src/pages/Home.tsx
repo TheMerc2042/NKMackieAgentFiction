@@ -120,17 +120,6 @@ const Home = () => {
       <section id="newsletter" className="py-16 md:py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <p className="text-black text-sm mb-2 font-courier">
-              CONFIDENTIAL BRIEFING
-            </p>
-            <h2 className="font-montserrat text-3xl md:text-4xl font-bold text-black mb-4">
-              Join the Investigation
-            </h2>
-            <p className="text-black mb-8">
-              Subscribe to N.K. Mackie's newsletter for exclusive content,
-              behind-the-scenes insights, and advance notice of new releases.
-            </p>
-
             <NewsletterForm />
 
             <p className="text-black text-sm mt-4">
