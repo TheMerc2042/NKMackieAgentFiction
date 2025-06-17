@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Books from "@/pages/Books";
+import Briefs from "@/pages/Briefs";
 import Contact from "@/pages/Contact";
 import Admin from "@/pages/Admin";
 import Privacy from "@/pages/Privacy";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/books" component={Books} />
+        <Route path="/briefs" component={Briefs} />
         <Route path="/contact" component={Contact} />
         <Route path="/admin" component={Admin} />
         <Route path="/privacy" component={Privacy} />
