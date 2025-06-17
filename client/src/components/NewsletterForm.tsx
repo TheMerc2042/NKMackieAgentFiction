@@ -39,7 +39,7 @@ const NewsletterForm = () => {
   return (
     <Card className="p-6 bg-gradient-to-r from-navy-900 to-navy-800 text-white">
       <div className="text-center mb-6">
-        <h2 className="text-2xl font-bold mb-2">Join the Newsletter</h2>
+        <h2 className="text-2xl font-bold mb-2 font-montserrat">Join the Newsletter</h2>
         <p className="text-navy-200">Subscribe to get our latest content by email.</p>
       </div>
       
