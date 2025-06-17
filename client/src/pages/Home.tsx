@@ -122,7 +122,7 @@ const Home = () => {
           <div className="max-w-3xl mx-auto text-center">
             <NewsletterForm />
 
-            <p className="text-black text-sm mt-4">
+            <p className="text-black text-sm mt-4 font-montserrat">
               Your information will never be shared. You can unsubscribe at any
               time.
             </p>

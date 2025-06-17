@@ -20,12 +20,12 @@ const EMBED_HTML = `
   <div data-style="minimal">
 
     <div class="formkit-header" data-element="header"
-         style="color:#4d4d4d;font-size:27px;font-weight:700;">
+         style="color:#4d4d4d;font-size:27px;font-weight:700;font-family:'Montserrat',sans-serif;">
       <h2>Join the Newsletter</h2>
     </div>
 
     <div class="formkit-subheader" data-element="subheader"
-         style="color:#686868;font-size:18px;">
+         style="color:#686868;font-size:18px;font-family:'Montserrat',sans-serif;">
       Subscribe to get our latest content by email.
     </div>
 
@@ -42,12 +42,12 @@ const EMBED_HTML = `
                placeholder="Email Address"
                required
                type="email"
-               style="color:#000;border-color:#e3e3e3;border-radius:4px;font-weight:400;">
+               style="color:#000;border-color:#e3e3e3;border-radius:4px;font-weight:400;font-family:'Montserrat',sans-serif;">
       </div>
 
       <button data-element="submit"
               class="formkit-submit"
-              style="color:#fff;background-color:#1677be;border-radius:4px;font-weight:400;">
+              style="color:#fff;background-color:#1677be;border-radius:4px;font-weight:400;font-family:'Montserrat',sans-serif;">
         <div class="formkit-spinner"><div></div><div></div><div></div></div>
         <span>Subscribe</span>
       </button>
@@ -55,7 +55,7 @@ const EMBED_HTML = `
     </div>
 
     <div class="formkit-guarantee" data-element="guarantee"
-         style="color:#4d4d4d;font-size:13px;font-weight:400;">
+         style="color:#4d4d4d;font-size:13px;font-weight:400;font-family:'Montserrat',sans-serif;">
       We won't send you spam. Unsubscribe at any time.
     </div>
 
@@ -65,7 +65,8 @@ const EMBED_HTML = `
          class="formkit-powered-by-convertkit"
          data-variant="dark"
          target="_blank"
-         rel="nofollow">
+         rel="nofollow"
+         style="font-family:'Montserrat',sans-serif;">
         Built with Kit
       </a>
     </div>
