@@ -42,7 +42,7 @@ const EMBED_HTML = `
                placeholder="Email Address"
                required
                type="email"
-               style="color:#000;border-color:#e3e3e3;border-radius:4px;font-weight:400;font-family:'Montserrat',sans-serif;">
+               style="color:#000;border-color:#e3e3e3;border-radius:4px;font-weight:400;font-family:'Montserrat',sans-serif;padding:12px 16px;font-size:16px;min-height:48px;">
       </div>
 
       <button data-element="submit"
