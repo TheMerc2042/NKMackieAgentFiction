@@ -24,11 +24,11 @@ const NewsletterForm = () => {
         text-align:center;
       ">
 
-  <h2 style="font-size:24px;font-weight:700;margin:0 0 12px 0;color:#1e1e1e;">
+  <h2 style="font-size:24px;font-weight:700;margin:0 0 12px 0;color:#4a5568;">
     Join the Newsletter
   </h2>
 
-  <p style="margin:0 0 20px 0;color:#444;">
+  <p style="margin:0 0 20px 0;color:#4a5568;">
     Subscribe to get our latest content by email.
   </p>
 
@@ -48,7 +48,8 @@ const NewsletterForm = () => {
              padding:12px;
              border:1px solid #ccc;
              border-radius:4px;
-             font-size:16px;" />
+             font-size:16px;
+             color:#4a5568;" />
 
     <button type="submit"
             style="
@@ -64,12 +65,12 @@ const NewsletterForm = () => {
     </button>
   </div>
 
-  <p style="font-size:12px;color:#666;margin:0 0 12px 0;">
+  <p style="font-size:12px;color:#4a5568;margin:0 0 12px 0;">
     We won't send you spam. Unsubscribe at any time.
   </p>
 
   <a href="https://kit.com"
-     style="font-size:13px;color:#333;text-decoration:none;">
+     style="font-size:13px;color:#4a5568;text-decoration:none;">
      Built with Kit
   </a>
 </form>
