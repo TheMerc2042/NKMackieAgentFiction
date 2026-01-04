@@ -1,4 +1,4 @@
-export const AMAZON_BOOK_LINK = "https://www.amazon.com/Dismissed-Empire-Crime-Investigations-Book-ebook/dp/B0F4LLS44V?tag=srp0f-20&geniuslink=true";
+export const AMAZON_BOOK_LINK = "https://www.amazon.com/DISMISSED-Empire-Crime-Investigations-Mackie/dp/B0GCVRQR5T/ref=tmm_pap_swatch_0";
 
 export const BOOK_PREVIEW_TEXT = `
 DISMISSED
