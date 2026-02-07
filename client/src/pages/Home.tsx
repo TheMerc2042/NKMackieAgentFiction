@@ -8,6 +8,7 @@ import {
   CORPORATE_MYSTERY_BACKGROUNDS,
   AMAZON_BOOK_LINK,
 } from "@/lib/constants";
+import crimeBakeAward from "@assets/NKMackie_CrimeBake_1770487105333.png";
 
 const Home = () => {
   const [isPreviewOpen, setIsPreviewOpen] = useState(false);
@@ -34,31 +35,40 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="container mx-auto px-6 relative z-20 h-full flex flex-col justify-center">
-          <div className="max-w-2xl fade-in">
-            <p className="case-number text-sm md:text-base mb-4 text-white">
-              FILE: ECI-2306-DISMISSED
-            </p>
-            <h1 className="font-montserrat text-white text-4xl md:text-6xl font-bold leading-tight mb-4">
-              Justice is bought and sold in the shadows. He's bringing it into
-              the light.
-            </h1>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/books">
-                <Button className="bg-red-600 hover:bg-red-700 text-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center w-full sm:w-auto">
-                  Discover the Book
+        <div className="container mx-auto px-6 relative z-20 h-full flex items-center">
+          <div className="flex flex-col lg:flex-row items-center justify-between w-full gap-8">
+            <div className="max-w-2xl fade-in">
+              <p className="case-number text-sm md:text-base mb-4 text-white">
+                FILE: ECI-2306-DISMISSED
+              </p>
+              <h1 className="font-montserrat text-white text-4xl md:text-6xl font-bold leading-tight mb-4">
+                Justice is bought and sold in the shadows. He's bringing it into
+                the light.
+              </h1>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/books">
+                  <Button className="bg-red-600 hover:bg-red-700 text-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center w-full sm:w-auto">
+                    Discover the Book
+                  </Button>
+                </Link>
+                <Button
+                  onClick={() =>
+                    document
+                      .getElementById("newsletter")
+                      ?.scrollIntoView({ behavior: "smooth" })
+                  }
+                  className="bg-white hover:bg-gray-100 text-red-600 border-2 border-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center w-full sm:w-auto"
+                >
+                  Join Newsletter
                 </Button>
-              </Link>
-              <Button
-                onClick={() =>
-                  document
-                    .getElementById("newsletter")
-                    ?.scrollIntoView({ behavior: "smooth" })
-                }
-                className="bg-white hover:bg-gray-100 text-red-600 border-2 border-white font-montserrat font-bold py-3 px-8 rounded-md transition duration-300 text-center w-full sm:w-auto"
-              >
-                Join Newsletter
-              </Button>
+              </div>
+            </div>
+            <div className="hidden lg:flex items-center justify-center flex-shrink-0">
+              <img
+                src={crimeBakeAward}
+                alt="N.K. Mackie - Debut Author, New England Crime Bake 2025"
+                className="max-w-sm w-full rounded-lg shadow-2xl"
+              />
             </div>
           </div>
         </div>
