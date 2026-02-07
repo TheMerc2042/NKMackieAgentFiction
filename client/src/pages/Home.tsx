@@ -36,7 +36,7 @@ const Home = () => {
         </div>
 
         <div className="container mx-auto px-6 relative z-20 h-full flex items-center">
-          <div className="flex flex-col lg:flex-row items-center justify-between w-full gap-8">
+          <div className="flex flex-col md:flex-row items-center justify-between w-full gap-8">
             <div className="max-w-2xl fade-in">
               <p className="case-number text-sm md:text-base mb-4 text-white">
                 FILE: ECI-2306-DISMISSED
@@ -63,11 +63,11 @@ const Home = () => {
                 </Button>
               </div>
             </div>
-            <div className="hidden lg:flex items-center justify-center flex-shrink-0">
+            <div className="flex items-center justify-center flex-shrink-0 mt-6 md:mt-0">
               <img
                 src={crimeBakeAward}
                 alt="N.K. Mackie - Debut Author, New England Crime Bake 2025"
-                className="max-w-sm w-full rounded-lg shadow-2xl"
+                className="w-64 md:w-80 lg:max-w-sm lg:w-full rounded-lg shadow-2xl"
               />
             </div>
           </div>
